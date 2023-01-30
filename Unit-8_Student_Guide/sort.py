@@ -5,7 +5,7 @@ def get_da(n,f):
     return li
 
 
-def sort_data(n,f):
+def sort(n,f):
     li=[]
     for i in f:
         if n in i:
