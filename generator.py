@@ -14,11 +14,12 @@ def generator_student():
         student={key: value} 
         all_student={note_key: {student[key]}} 
         print (all_student)
+    return all_student
     
 def write_file(data):
     with open('student.csv','a') as file:
         file.writelines(data)    
     
     
-write_file(generator_student()) 
+write_file() 
 print(generator_student())
